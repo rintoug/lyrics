@@ -1,0 +1,45 @@
+body {
+    font-size: 16px;
+}
+.ck-editor__editable {
+    min-height: 400px;
+}
+.site-msg {
+    padding: 20px 30px;
+    z-index: 999999;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.site-msg.success {
+    background: #00a65a;
+}
+.site-msg.error {
+    background: #dd4b39;
+}
+.help-block {
+    background: #dd4b39 ;
+    color:#fff;
+    padding: 3px;
+}
+.checkbox-cats {
+    border: 1px solid #d4d4d4;
+    height: 200px;
+    overflow: auto;
+}
+.checkbox-cats ul {
+    list-style-type: none;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.checkbox-cats ul li input{
+    padding-right: 4px;
+}
+
+.cat-tree {
+    font-size: 18px;
+}
+.cat-tree li{
+    margin-top: 8px;
+
+}
